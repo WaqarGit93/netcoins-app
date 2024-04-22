@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.netcoins-main {
+  background: rgb(159,51,255);
+  background: linear-gradient(0deg, rgba(159,51,255,1) 0%, rgba(0,0,0,1) 100%);
+}
+/* .btm-btns-wrap .btn {
+  background: rgb(74,121,248);
+  background: linear-gradient(180deg, rgba(74,121,248,1) 0%, rgba(21,72,198,1) 100%);
+  padding: 12px 25px;
+  display: block;
+  width: 100%;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 2s;
+  transition: 800ms ease-out 80ms;
+}
+.btm-btns-wrap .btn:hover {
+  background-color: rgb(74,121,248);
+  background: linear-gradient(0deg, rgba(74,121,248,1) 0%, rgba(21,72,198,1) 100%);
+} */
+
+.btm-btns-wrap .btn {
+  background: rgb(74, 121, 248);
+  background: linear-gradient(180deg, rgba(74, 121, 248, 1) 0%, rgba(21, 72, 198, 1) 100%);
+  padding: 12px 25px;
+  display: block;
+  width: 100%;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: background 0.8s ease-out; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btm-btns-wrap .btn:hover {
+  background: rgb(21, 72, 198); 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 768px) {
+  .btm-btns-wrap .btn {
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .btm-btns-wrap .btn {
+    padding: 8px 12px;
+    font-size: 14px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
