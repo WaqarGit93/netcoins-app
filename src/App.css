@@ -25,7 +25,9 @@
   background: rgb(74, 121, 248);
   background: linear-gradient(180deg, rgba(74, 121, 248, 1) 0%, rgba(21, 72, 198, 1) 100%);
   padding: 12px 25px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   color: #fff;
   border-radius: 6px;
