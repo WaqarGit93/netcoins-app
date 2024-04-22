@@ -51,7 +51,7 @@ function App() {
           </div>
           <div className='collections-bar-wrap w-[200px] h-[200px] mx-auto rounded-full bg-[#DACD8D] flex justify-center items-center border border-[#FFDD33] cursor-pointer'>
             <div onClick={handleClick} className='hover:shadow-md bg-[#F7CF08] w-[80%] h-[80%] rounded-full flex justify-center items-center'> 
-              <h4 className='text-[72px] font-semibold text-[#DACD8D]'> H </h4> 
+              <h4 className='text-[72px] font-semibold text-[#DACD8D]'> N </h4> 
             </div> 
           </div>
           <div className='btm-btns-wrap flex justify-between gap-2 sm:gap-[50px]'> 
